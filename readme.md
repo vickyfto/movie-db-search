@@ -33,11 +33,20 @@ see also:
 ### Basic usage
 
 ``` bash
-# dev server  with hot reload at http://localhost:3000
+# running dev server with hot reload at http://localhost:3000
 $ npm start
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
+
+### Unit Testing
+
+``` bash
+# running unit testing with hot reload (don't close your Terminal or any Command Line Tools)
+$ npm start
+```
+
+On your Terminal, The app will automatically unit testing if you change any of the source files. We used Jest for unit testing, [for further documentation](https://jestjs.io/docs/en/getting-started).
 
 ### Build
 
