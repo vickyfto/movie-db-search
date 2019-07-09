@@ -17,6 +17,9 @@ $ git clone https://github.com/dwisetiyadi/react-js-vanilla.git my-project
 # go into app's directory
 $ cd my-project
 
+# copy and rename .env.example to .env
+# edit .env file based on your needs
+
 # install app's dependencies
 $ npm install
 ```
