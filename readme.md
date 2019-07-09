@@ -46,7 +46,7 @@ Navigate to [http://localhost:3000](http://localhost:3000). The app will automat
 $ npm start
 ```
 
-On your Terminal, The app will automatically unit testing if you change any of the source files. We used Jest for unit testing, [for further documentation](https://jestjs.io/docs/en/getting-started).
+On your Terminal, The app will automatically run unit testing if you change any of the source files. We used Jest for unit testing, [for further documentation](https://jestjs.io/docs/en/getting-started).
 
 ### Build
 
