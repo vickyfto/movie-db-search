@@ -62,20 +62,30 @@ $ npm run build
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-CoreUI-React#v2.0.0
+App
 ├── public/          #static files
 │   ├── assets/      #assets
 │   └── index.html   #html template
 │
 ├── src/             #project root
-│   ├── containers/  #container source
-│   ├── scss/        #user scss/css source
-│   ├── views/       #views source
+│   ├── assets/
+│   ├── bootstrap/
+│   ├── components/
+│   ├── config/
+│   ├── css/
+│   ├── modules/
+│   ├── scss/
+│   ├── utilities/
 │   ├── App.js
 │   ├── App.test.js
 │   ├── index.js
-│   ├── _nav.js      #sidebar config
-│   └── routes.js    #routes config
+│   └── setupTests.js
 │
 └── package.json
 ```
+
+## Credits
+
+* [CoreUI](https://coreui.io)
+* [ReactJS](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com/)

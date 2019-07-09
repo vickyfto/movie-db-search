@@ -22,7 +22,7 @@ module.exports = {
     "no-underscore-dangle": "off",
     "react/destructuring-assignment": "off",
     "react/jsx-one-expression-per-line": "off",
-    "linebreak-style": ["error", (process.platform === "win32" ? "windows" : "unix")]
+    "linebreak-style": 0
   },
   "plugins": [
     "react",
