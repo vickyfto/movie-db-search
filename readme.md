@@ -76,8 +76,6 @@ App
 │   ├── modules/
 │   ├── scss/
 │   ├── utilities/
-│   ├── App.js
-│   ├── App.test.js
 │   ├── index.js
 │   └── setupTests.js
 │
