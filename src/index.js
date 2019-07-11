@@ -4,7 +4,6 @@ import 'react-app-polyfill/stable';
 import './polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
 import { App } from './bootstrap';
 import * as serviceWorker from './serviceWorker';
 
