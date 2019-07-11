@@ -76,7 +76,7 @@ App
 │   ├── modules/
 │   ├── scss/
 │   ├── utilities/
-│   ├── index.js
+│   ├── index.tsx
 │   └── setupTests.js
 │
 └── package.json
