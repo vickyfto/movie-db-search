@@ -43,7 +43,7 @@ Navigate to [http://localhost:3000](http://localhost:3000). The app will automat
 
 ``` bash
 # running unit testing with hot reload (don't close your Terminal or any Command Line Tools)
-$ npm start
+$ npm test
 ```
 
 On your Terminal, The app will automatically run unit testing if you change any of the source files. We used Jest for unit testing, [for further documentation](https://jestjs.io/docs/en/getting-started).
@@ -77,6 +77,8 @@ App
 │   ├── scss/
 │   ├── utilities/
 │   ├── index.tsx
+│   ├── react-app-env.d.ts
+│   ├── serviceWorker.ts
 │   └── setupTests.js
 │
 └── package.json
