@@ -7,18 +7,15 @@ import ReduxReducer from './ReduxReducer';
 import ReduxPersist from './ReduxPersist';
 import ReduxSaga from './ReduxSaga';
 import {
-  CompanyName,
-  ProjectName,
+  CompanyName, ProjectName,
   Layout,
+  APIUri, APIKey,
 } from './App';
 
 export {
-  RouterNonContainer,
-  RouterContainer,
-  ReduxReducer,
-  ReduxPersist,
-  ReduxSaga,
-  CompanyName,
-  ProjectName,
+  RouterNonContainer, RouterContainer,
+  ReduxReducer, ReduxPersist, ReduxSaga,
+  CompanyName, ProjectName,
   Layout,
+  APIUri, APIKey,
 };

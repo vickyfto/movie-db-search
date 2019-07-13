@@ -11,4 +11,8 @@ export default [
 ];
 */
 
-export default [];
+import { watcherNowPlaying } from '../modules/dashboard/SagaDashboard';
+
+export default [
+  ...watcherNowPlaying,
+];

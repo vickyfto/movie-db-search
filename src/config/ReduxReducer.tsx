@@ -12,6 +12,10 @@ const reducers: object = {
 export default reducers;
 */
 
-const reducers: object = {};
+import { ReducerNowPlayingDashboard } from '../modules/dashboard/ReducerDashboard';
+
+const reducers: object = {
+  nowPlaying: ReducerNowPlayingDashboard,
+};
 
 export default reducers;
