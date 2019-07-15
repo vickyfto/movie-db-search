@@ -3,7 +3,7 @@
 */
 
 import { combineReducers } from 'redux';
-import { ReduxReducer as LoadReducers } from '../config';
+import { ReduxReducer as LoadReducers, HookReducer } from '../config';
 
 let reduxReducer: any = combineReducers(LoadReducers);
 
@@ -12,4 +12,9 @@ if (Object.keys(LoadReducers).length === 0 && LoadReducers.constructor === Objec
   reduxReducer = combineReducers({ initialReducer } as any);
 }
 
-export default reduxReducer;
+const hooks: any = (state: any, action: any) => {
+  const hook = HookReducer(state, action);
+  return reduxReducer(hook.state, hook.action);
+}
+
+export default hooks;
