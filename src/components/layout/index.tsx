@@ -7,6 +7,7 @@ import * as RouterDom from 'react-router-dom';
 import { Container } from 'reactstrap';
 import { Loading } from 'components';
 import { RouterContainer, DefaultPath } from 'config';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DefaultLayout = () => {
   return (

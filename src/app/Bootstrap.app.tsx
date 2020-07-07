@@ -6,7 +6,7 @@ import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { ReduxPersistor, ReduxStore } from 'bootstrap';
+import { ReduxPersistor, ReduxStore } from 'app';
 import { Layout, Loading } from 'components';
 import { RouterNonContainer } from 'config';
 import 'assets/styles/app.scss';

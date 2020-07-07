@@ -2,12 +2,12 @@
  * @author: dwi.setiyadi@gmail.com
  */
 
-import App from 'bootstrap/Bootstrap.app';
-import ReduxSaga from 'bootstrap/Saga.app';
-import ReduxReducer from 'bootstrap/Reducer.app';
+import App from 'app/Bootstrap.app';
+import ReduxSaga from 'app/Saga.app';
+import ReduxReducer from 'app/Reducer.app';
 import {
   Persistor as ReduxPersistor,
   Store as ReduxStore,
-} from 'bootstrap/Store.app';
+} from 'app/Store.app';
 
 export { App, ReduxSaga, ReduxReducer, ReduxPersistor, ReduxStore };

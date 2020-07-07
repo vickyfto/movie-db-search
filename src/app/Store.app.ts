@@ -7,7 +7,7 @@ import { persistStore, persistReducer } from 'redux-persist';
 import createSagaMiddleware from 'redux-saga';
 import logger from 'redux-logger';
 
-import { ReduxSaga, ReduxReducer } from 'bootstrap';
+import { ReduxSaga, ReduxReducer } from 'app';
 import { Persistors } from 'config';
 
 declare global {
