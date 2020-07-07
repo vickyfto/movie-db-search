@@ -1,0 +1,13 @@
+// Warning!
+// Just import styles here,
+// Don't write your styles here, to keep it cleaned up
+// Write your custom styles on _custom.scss
+
+// If you want to override variables do it here
+@import 'variables';
+
+// If you want to add something do it here
+@import 'custom';
+
+// ie fixes
+@import 'ie-fix';

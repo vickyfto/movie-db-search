@@ -1,22 +1,23 @@
 /**
  * @author: dwi.setiyadi@gmail.com
-*/
+ */
 
-import { RouterNonContainer, RouterContainer } from './Router';
-import ReduxReducer from './ReduxReducer';
-import HookReducer from './HookReducer';
-import ReduxPersist from './ReduxPersist';
-import ReduxSaga from './ReduxSaga';
 import {
-  CompanyName, ProjectName,
-  Layout,
-  APIUri, APIKey,
-} from './App';
+  RouterNonContainer,
+  RouterContainer,
+  DefaultPath,
+} from 'config/Routers.cfg';
+import Reducers from 'config/Reducers.cfg';
+import ReducerHooks from 'config/ReducerHooks.cfg';
+import Persistors from 'config/Persistors.cfg';
+import Sagas from 'config/Sagas.cfg';
 
 export {
-  RouterNonContainer, RouterContainer,
-  ReduxReducer, HookReducer, ReduxPersist, ReduxSaga,
-  CompanyName, ProjectName,
-  Layout,
-  APIUri, APIKey,
+  RouterNonContainer,
+  RouterContainer,
+  DefaultPath,
+  Reducers,
+  ReducerHooks,
+  Persistors,
+  Sagas,
 };
