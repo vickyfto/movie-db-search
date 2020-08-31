@@ -8,10 +8,12 @@ import React from 'react'; // eslint-disable-line
 // import RouterExample from '../modules/example/RouterExample';
 
 import RouterHome from 'modules/home/Router.home';
+import RouterMovies from 'modules/movie-page/Router.Movies';
 
 export const RouterContainer = [
   // ...RouterExample,
   ...RouterHome,
+  ...RouterMovies,
 ];
 
 export const RouterNonContainer = [
